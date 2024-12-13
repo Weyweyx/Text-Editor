@@ -7,7 +7,7 @@
     "start:dev": "",
     "start": "npm run server",
     "server": "node server/server.js",
-    "build": "cd client && npm run build",
+    "build": "cd client && npm i && npm run build",
     "install": "cd server && npm i && cd ../client && npm i",
     "client": "cd client && npm run start"
   },
